@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora de IMC</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    
+    <div class = "titulo">
+        Grupo 05
+    </div>
+
+    <!-- Coleta de dados do usuário -->
+    <div class="textfield">
+    <label for="name">Altura</label>
+    <input type="number" name="altura" id="altura" placeholder="Informe sua altura (cm)" required autocomplete="altura">
+    <i class="fas fa-user"></i>
+
+    <label for="name">Peso</label>
+    <input type="number" name="peso" id="peso" placeholder="Informe seu peso (kg)" required autocomplete="peso">
+    <i class="fas fa-user"></i>
+    </div>
+
+    <input type="button" value="Calcular" onclick="calculadoraImc()";>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        calculadoraImc
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
