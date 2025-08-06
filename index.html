@@ -5,8 +5,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Calculadora de IMC</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='script.js'></script>
 </head>
 <body>
     <!-- Cabeçalho do site -->
@@ -27,20 +27,20 @@
 
     <input type="button" value="Calcular" onclick="calculadoraImc()";>
 
-    <div>
+    <div class="tabela">
         <table>
             <thead>
                 <tr>
                     <th>Resultado</th>
                 </tr>
+                <tr id="resultado-imc"></tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>
-                        calculadoraImc
-                    </td>
+                    <td ></td>
                 </tr>
             </tbody>
+           
         </table>
     </div>
 
