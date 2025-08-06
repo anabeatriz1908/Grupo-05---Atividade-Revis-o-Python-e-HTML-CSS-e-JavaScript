@@ -1,4 +1,4 @@
-async function calculadoraImc() {
+function calculadoraImc() {
     let altura =  document.getElementById('altura').value;
     let peso =  document.getElementById('peso').value;
 
@@ -36,12 +36,22 @@ async function calculadoraImc() {
         resultado = "Obesidade grau III"
     }
 
+    return resultado
 
 
-    alert(`Seu IMC é: ${resultado}`)
+    /* */
+    let tabela = document.querySelector('table')
+    let novasLinhas = document.createElement('tr');
 
+
+
+    
     }catch{
         alert('Erro ao calcular o IMC')
 
     }
+}
+
+function exibirResultado(){
+    
 }
