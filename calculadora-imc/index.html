@@ -8,26 +8,29 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='script.js'></script>
 </head>
-<body>
+<body class="body">
     <!-- Cabeçalho do site -->
-    <div>
+    <div class = "titulo">
         Grupo 05
     </div>
 
     <!-- Coleta de dados do usuário -->
-    <div>
-    <label for="name">Altura</label>
+    <div class="textfield">
+    <label for="name" class="textfield">Altura</label>
     <input type="number" name="altura" id="altura" placeholder="Informe sua altura (cm)" required autocomplete="altura">
     <i class="fas fa-user"></i>
 
-    <label for="name">Peso</label>
+    <label for="name" class="textfield">Peso</label>
     <input type="number" name="peso" id="peso" placeholder="Informe seu peso (kg)" required autocomplete="peso">
     <i class="fas fa-user"></i>
     </div>
-
+    
+    <!-- Botão de Calcular Idade -->
+    <div class="textfield">
     <input type="button" value="Calcular" onclick="calculadoraImc()";>
+    </div>
 
-    <div class="tabela">
+    <div class="textfield">
         <table>
             <thead>
                 <tr>

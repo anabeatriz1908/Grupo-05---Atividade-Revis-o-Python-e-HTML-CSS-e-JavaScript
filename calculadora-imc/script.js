@@ -38,7 +38,7 @@ function calculadoraImc() {
 
         
 
-        document.getElementById("resultado-imc").innerText = `Seu IMC é ${imc.toFixed(2)} (${resultado})`;
+        document.getElementById("resultado-imc").innerText = `Seu IMC é ${imc.toFixed(2)}.Classificação em "${resultado}"`;
         
   
 
