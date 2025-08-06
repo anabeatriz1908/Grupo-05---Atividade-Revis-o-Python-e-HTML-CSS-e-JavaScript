@@ -17,23 +17,15 @@
     <!-- Coleta de dados do usuário -->
     <div>
     <label for="name">Altura</label>
-    <input type="text" name="altura" id="altura" placeholder="Informe sua altura (cm)" required autocomplete="altura">
+    <input type="number" name="altura" id="altura" placeholder="Informe sua altura (cm)" required autocomplete="altura">
     <i class="fas fa-user"></i>
 
     <label for="name">Peso</label>
-    <input type="text" name="peso" id="peso" placeholder="Informe seu peso (kg)" required autocomplete="peso">
+    <input type="number" name="peso" id="peso" placeholder="Informe seu peso (kg)" required autocomplete="peso">
     <i class="fas fa-user"></i>
     </div>
 
+    <input type="button" value="Calcular" onclick="calculadoraImc()";>
 
-    Classificação	IMC
-    Abaixo do Peso	Abaixo de 18.5
-    Peso Normal	18.5-24.9
-    Sobrepeso	25.0-29.9
-    Obesidade	30 e acima
-    Classe I	30.0-34.9
-    Classe II	35.0-39.9
-    Classe III	40 e acima
-    
 </body>
 </html>
